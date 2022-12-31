@@ -9,7 +9,7 @@ pipeline {
         axes {
           axis {
             name 'PLATFORM'
-            values 'linux', 'macos'
+            values 'node1', 'node2'
           }
         }
         stages {
